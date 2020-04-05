@@ -35,6 +35,13 @@ func GenerateSenLicense(hash *zhash.Hash, path ...string) {
 	hash.Set("SEN-L"+strconv.Itoa(rand.Intn(max-min)+min), path...)
 }
 
+func GenerateAtLicense(hash *zhash.Hash, path ...string) {
+	min := 1000000
+	max := 9999999
+
+	hash.Set("AT-L"+strconv.Itoa(rand.Intn(max-min)+min), path...)
+}
+
 func GenerateCity(hash *zhash.Hash, path ...string) {
 	hash.Set(gofakeit.City(), path...)
 }

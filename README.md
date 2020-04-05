@@ -17,6 +17,7 @@ contactDetails.technicalContact.postcode: zip
 contactDetails.technicalContact.state: state
 addonLicenseId: int_string
 licenseId: sen_license
+transactionId: at_license
 ```
 
 List of available generators:
@@ -27,6 +28,7 @@ List of available generators:
 - city
 - zip
 - sen_license
+- at_license
 - state
 
 # Usage

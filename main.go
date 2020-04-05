@@ -42,6 +42,7 @@ func main() {
 		"city":        GenerateCity,
 		"zip":         GenerateZip,
 		"sen_license": GenerateSenLicense,
+		"at_license":  GenerateAtLicense,
 		"state":       GenerateState,
 	}
 
